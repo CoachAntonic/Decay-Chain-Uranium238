@@ -42,7 +42,7 @@ half_life_U_238 = 1.410e17
 time_s = np.linspace(0, 20*half_life_U_238, 1000)
 Atoms_U_238_at_time_0 = 10000
 
-#For this exemple we assume that the number of atoms for all the isotopes exepts are 0 at time 0
+#For this exemple we assume that the number of atoms for all the isotopes exepts the urabium 238 are 0 at time 0
 y0 = [Atoms_U_238_at_time_0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 #Now we calculate our solution
