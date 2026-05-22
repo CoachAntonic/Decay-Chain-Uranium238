@@ -5,13 +5,14 @@ chains of the Uranium 238.
 
 ## Descriptions 
 
-This project simulate the decay
-chain of the Uranium 238 using
-Numpy, Matplotlib and Scipy.
+This project simulates the complete decay chain of Uranium-238 
+using the Bateman equations, solved numerically with SciPy's odeint. 
+The simulation tracks the evolution of all 15 isotopes from U-238 
+to the stable Pb-206.
 
 ## Versions
 
-There is 2 versions of this project : 
+There are 2 versions of this project : 
 - With no particular scale
 - With a log scale on x and y
 
