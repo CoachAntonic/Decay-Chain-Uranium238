@@ -5,21 +5,21 @@ from scipy.integrate import odeint
 
 def chain_decay(y, time_s) :
     #Decay constant of element in the chain decay of the Uranium 238 in s^-1
-    lambda_U238 = np.log(2) / 1.410e17 #1c
-    lambda_Th234 = np.log(2) / 2082240 #3c
-    lambda_Pa234 = np.log(2) / 70.2    #4
-    lambda_U234 = np.log(2) / 7.748e12 #2c
-    lambda_Th230 = np.log(2) / 2.349e12 #2c
-    lambda_Ra226 = np.log(2) / 5.049e10 #2c
-    lambda_Rn222 = np.log(2) / 330048 #3
-    lambda_Po218 = np.log(2) / 183  #1c
-    lambda_Pb214 = np.log(2) / 1608 #1c
-    lambda_Bi214 = np.log(2) / 1182 #1
-    lambda_Po214 = np.log(2) / 0.000164 #c
-    lambda_Pb210 = np.log(2) / 7.034e8 #3c
-    lambda_Bi210 = np.log(2) / 433094 #3
-    lambda_Po210 = np.log(2) / 11959000 #3c
-    #Pb 216 is stable c
+    lambda_U238 = np.log(2) / 1.410e17 
+    lambda_Th234 = np.log(2) / 2082240 
+    lambda_Pa234 = np.log(2) / 70.2    
+    lambda_U234 = np.log(2) / 7.748e12 
+    lambda_Th230 = np.log(2) / 2.349e12 
+    lambda_Ra226 = np.log(2) / 5.049e10 
+    lambda_Rn222 = np.log(2) / 330048 
+    lambda_Po218 = np.log(2) / 183  
+    lambda_Pb214 = np.log(2) / 1608 
+    lambda_Bi214 = np.log(2) / 1182 
+    lambda_Po214 = np.log(2) / 0.000164
+    lambda_Pb210 = np.log(2) / 7.034e8 
+    lambda_Bi210 = np.log(2) / 433094 
+    lambda_Po210 = np.log(2) / 11959000 
+    #Pb 216 is stable 
     (U_238, Th_234, Pa_234, 
      U_234, Th_230, Ra_226, 
      Rn_222, Po_218, Pb_214, 
